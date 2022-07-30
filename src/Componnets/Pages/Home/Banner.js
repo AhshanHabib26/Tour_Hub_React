@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import BannerImg from "../../Image/BannerImg.png";
 import BannerImgOne from "../../Image/BannerImg_1.png";
+import Styles from '../../Styles/Banner.module.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -9,8 +10,8 @@ AOS.refresh();
 
 const Banner = () => {
   return (
-    <div>
-      <div class="carousel w-full">
+    <div className=" relative">
+      <div class="carousel w-full text-center relative">
         <div id="slide1" class="carousel-item relative w-full">
           <img alt="Banner" src={BannerImg} class="w-full" />
 
@@ -39,7 +40,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
+        <div id="slide2" class="carousel-item relative w-full text-center">
           <img alt="Banner" src={BannerImgOne} class="w-full" />
           <div className=" text-white absolute flex justify-center items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <div>
@@ -68,7 +69,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div class="flex justify-center w-full my-2">
+      <div className={Styles.bannerBtn}>
         <a href="#slide1" class="btn btn-circle btn-xs">
           ❮
         </a>

@@ -15,37 +15,44 @@
         "Id": "3",
         "Title": "Footsteps Of The Pharaohs",
         "Image": "https://i.ibb.co/GCb1g6J/image-8.png",
-        "Price": "780"
+        "Price": "780",
+        "Day": "1 Day & 2 night"
+
     },
     {
         "Id": "4",
         "Title": "Endless Beauty of Vietnam",
         "Image": "https://i.ibb.co/HDnj2qX/image-7.png",
-        "Price": "1780"
+        "Price": "1780",
+        "Day": "2 Day & 3 night"
     },
     {
         "Id": "5",
         "Title": "Best of Spain",
         "Image": "https://i.ibb.co/QXsBcMr/image-3.png",
-        "Price": "2780"
+        "Price": "2780",
+        "Day": "5 Day & 6 night"
     },
     {
         "Id": "6",
         "Title": "Capitals of Scandinavia",
         "Image": "https://i.ibb.co/Wnxrqj2/image-4.png",
-        "Price": "5080"
+        "Price": "5080",
+        "Day": "3 Day & 2 night"
     },
     {
         "Id": "7",
         "Title": "Treasures of Turkey ",
         "Image": "https://i.ibb.co/ZXB8hnT/image-1.png",
-        "Price": "3280"
+        "Price": "3280",
+        "Day": "2 Day & 2 night"
     },
     {
         "Id": "8",
         "Title": "The best of Egypt & Turkey Tours",
         "Image": "https://i.ibb.co/dLp0150/image-5.png",
-        "Price": "3380"
+        "Price": "3380",
+        "Day": "5 Day & 5 night"
     }
 
 ]
