@@ -14,7 +14,7 @@ const Houses = () => {
         {" "}
        Our Best Selling Tours
       </h2>
-      <div className=" grid  grid-cols-1 lg:grid-cols-3 mx-auto max-w-md gap-5 lg:max-w-7xl">
+      <div className=" grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-lg gap-10 lg:max-w-7xl">
         {sliceHouses.map((house) => (
           <House house={house} key={house.Id} />
         ))}
