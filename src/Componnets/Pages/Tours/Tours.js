@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import useData from "../../Hools/useData";
-import House from "./House";
+import Tour from "./Tour";
 
-const Houses = () => {
+const Tours = () => {
  
-  const [houses] = useData()
-  const sliceHouses = houses.slice(0, 6)
+  const [tours] = useData()
+  const sliceTours = tours.slice(0, 6)
 
   return (
     <div>
@@ -14,9 +14,9 @@ const Houses = () => {
         {" "}
        Our Best Selling Tours
       </h2>
-      <div className=" grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-lg gap-10 lg:max-w-7xl">
-        {sliceHouses.map((house) => (
-          <House house={house} key={house.Id} />
+      <div className=" grid px-5 lg:px-0  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-lg gap-10 lg:max-w-7xl">
+        {sliceTours.map((tour) => (
+          <Tour tour={tour} key={tour.Id} />
         ))}
       </div>
       <div className=" my-8 text-center">
@@ -26,4 +26,4 @@ const Houses = () => {
   );
 };
 
-export default Houses;
+export default Tours;

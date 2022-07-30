@@ -1,8 +1,8 @@
 import React from "react";
-import Styles from "../../Styles/House.module.css";
+import Styles from "../../Styles/Tour.module.css";
 
-const House = ({ house }) => {
-  const { Day, Image, Price, Title } = house;
+const Tour = ({ tour }) => {
+  const { Day, Image, Price, Title } = tour;
   return (
     <div className=" relative">
       <div data-aos="zoom-in" class="card w-full bg-base-100 shadow relative">
@@ -25,4 +25,4 @@ const House = ({ house }) => {
   );
 };
 
-export default House;
+export default Tour;

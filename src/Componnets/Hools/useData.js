@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 
 const useData = () => {
-    const [houses, setHouses] = useState([]);
+    const [tours, setTours] = useState([]);
 
     useEffect(() => {
       fetch("Data.json")
         .then((res) => res.json())
-        .then((data) => setHouses(data));
+        .then((data) => setTours(data));
     }, []);
 
-    return [houses]
+    return [tours]
 };
 
 export default useData;

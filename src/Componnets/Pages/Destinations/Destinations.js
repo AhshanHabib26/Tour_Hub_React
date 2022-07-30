@@ -9,7 +9,7 @@ import Switzerland from "../../Image/Destinations/Switzerland.png";
 
 const Destinations = () => {
   return (
-    <div>
+    <div className=" mb-12">
       <h1 className=" text-center text-neutral text-2xl lg:text-4xl font-bold my-10">
         Top Recommended Destinations
       </h1>
@@ -28,7 +28,7 @@ const Destinations = () => {
         <div
           data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           className={`relative ${Styles.MainWrapper}`}
         >
           <label className={Styles.CardLabel} htmlFor="Africa">
@@ -39,7 +39,7 @@ const Destinations = () => {
         <div
           data-aos="fade-right"
           data-aos-easing="linear"
-          data-aos-duration="2500"
+          data-aos-duration="1500"
           className={`relative ${Styles.MainWrapper}`}
         >
           <label className={Styles.CardLabel} htmlFor="Switzerland">
@@ -61,7 +61,7 @@ const Destinations = () => {
         <div
           data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           className={`relative ${Styles.MainWrapper}`}
         >
           <label className={Styles.CardLabel} htmlFor="Paris">
@@ -72,7 +72,7 @@ const Destinations = () => {
         <div
           data-aos="fade-right"
           data-aos-easing="linear"
-          data-aos-duration="2500"
+          data-aos-duration="1500"
           className={`relative ${Styles.MainWrapper}`}
         >
           <label className={Styles.CardLabel} htmlFor="Singapore">

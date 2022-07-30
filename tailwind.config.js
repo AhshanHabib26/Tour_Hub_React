@@ -4,7 +4,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        IMSThemes: {
+        TutorHubThemes: {
           primary: "#ff5b4d",
           secondary: "#FFECEB",
           accent: "#4A546C",

@@ -14,7 +14,7 @@ const SearchInput = () => {
 
 
   return (
-    <div className={`flex justify-center items-center mx-auto px-6 lg:px-0 lg:max-w-4xl my-4 ${Styles.shdowStyle}`}>
+    <div className={`flex mx-4 justify-center items-center lg:mx-auto  lg:max-w-4xl my-4 ${Styles.shdowStyle}`}>
       <div className=" grid grid-cols-2 lg:grid-cols-5 p-5">
       
       <div className=" flex flex-col justify-start items-start">
