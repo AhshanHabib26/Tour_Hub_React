@@ -6,9 +6,14 @@ const Subscribe = () => {
     <div className={Styles.SubscribeContainer}>
       <div className=" py-20 lg:py-28 flex flex-col lg:flex-row  lg:justify-evenly items-center flex-ro">
         <h1 className=" text-3xl lg:text-5xl font-extrabold capitalize  text-secondary">
-          Join Us for Our <span className=" text-info">Update</span> 
+          Join Us for Our <span className=" text-info">Update</span>
         </h1>
-        <button className=" btn mt-5 lg:mt-0 btn-secondary">Subcribe Us</button>
+        <label
+          for="subscribe-modal"
+          className=" modal-button btn mt-5 lg:mt-0 btn-secondary"
+        >
+          Subcribe Us
+        </label>
       </div>
     </div>
   );

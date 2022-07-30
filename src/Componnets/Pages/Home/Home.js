@@ -1,4 +1,5 @@
 import React from "react";
+import SubscribeModal from "../../Modal/SubscribeModal";
 import Blog from "../Blog/Blog";
 import Destinations from "../Destinations/Destinations";
 import Guide from "../Guide/Guide";
@@ -21,6 +22,7 @@ const Home = () => {
       <Review/>
       <Blog/>
       <Subscribe/>
+      <SubscribeModal/>
     </div>
   );
 };
