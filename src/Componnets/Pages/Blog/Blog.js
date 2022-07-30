@@ -58,7 +58,7 @@ const Blog = () => {
             </figure>
 
             <div class="card-body">
-              <h2 class="card-title">Best of Spain and Portugal</h2>
+              <h2 class="card-title">Best Journey of Spain & Portugal - 9 Days</h2>
               <div className=" flex items-end justify-end my-2">
                 <h1 className=" cursor-pointer text-lg font-semibold text-primary">Read More</h1>
               </div>

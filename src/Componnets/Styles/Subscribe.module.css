@@ -1,0 +1,8 @@
+.SubscribeContainer{
+    background-image: url(../Image/Subscribe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px 0;
+}

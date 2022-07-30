@@ -3,6 +3,7 @@ import Blog from "../Blog/Blog";
 import Destinations from "../Destinations/Destinations";
 import Guide from "../Guide/Guide";
 import Review from "../Review/Review";
+import Subscribe from "../Subscribe/Subscribe";
 import Tours from "../Tours/Tours";
 import UpcomingOffer from "../UpcomingOffer/UpcomingOffer";
 import Banner from "./Banner";
@@ -19,6 +20,7 @@ const Home = () => {
       <Guide/>
       <Review/>
       <Blog/>
+      <Subscribe/>
     </div>
   );
 };
