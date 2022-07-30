@@ -1,5 +1,6 @@
 import React from "react";
 import Destinations from "../Destinations/Destinations";
+import Guide from "../Guide/Guide";
 import Tours from "../Tours/Tours";
 import UpcomingOffer from "../UpcomingOffer/UpcomingOffer";
 import Banner from "./Banner";
@@ -13,6 +14,7 @@ const Home = () => {
       <Tours />
       <Destinations />
       <UpcomingOffer/>
+      <Guide/>
     </div>
   );
 };

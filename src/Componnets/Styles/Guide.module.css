@@ -1,0 +1,8 @@
+.GuideImg{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.GuideImg:hover{
+    transform: scale(1.0765);
+}
+  

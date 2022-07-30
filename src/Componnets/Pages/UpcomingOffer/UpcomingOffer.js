@@ -1,5 +1,5 @@
 import React from "react";
-import useData from "../../Hools/useData";
+import useData from "../../Hooks/useData";
 import Styles from '../../Styles/UpcomingOffer.module.css'
 
 const UpcomingOffer = () => {
@@ -12,7 +12,7 @@ const UpcomingOffer = () => {
         {" "}
         Our Upcoming Best Tours
       </h2>
-      <div className=" grid px-5 lg:px-0  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-lg gap-5 lg:max-w-6xl">
+      <div className=" grid mb-10 px-5 lg:px-0  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-lg gap-5 lg:max-w-6xl">
         {sliceTours.map((tour) => (
           <>
             <div className=" relative">

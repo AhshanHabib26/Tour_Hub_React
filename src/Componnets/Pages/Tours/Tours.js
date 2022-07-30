@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import useData from "../../Hools/useData";
+import useData from "../../Hooks/useData";
 import Tour from "./Tour";
 
 const Tours = () => {
