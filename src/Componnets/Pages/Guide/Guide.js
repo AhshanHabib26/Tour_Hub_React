@@ -6,7 +6,7 @@ import GuideThree from "../../Image/Guide/Guide (3).png";
 
 const Guide = () => {
   return (
-    <div>
+    <div className=" my-16">
       <h1 className=" text-center text-neutral text-2xl lg:text-4xl font-bold my-10">
         Our Top Guide
       </h1>
@@ -15,7 +15,7 @@ const Guide = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          class="card w-full bg-base-200 shadow-2xl"
+          class="card w-full bg-base-100 shadow-2xl"
         >
           <figure class="px-10 pt-10">
             <img
@@ -33,7 +33,7 @@ const Guide = () => {
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          class="card w-full bg-base-200 shadow-2xl"
+          class="card w-full bg-base-100 shadow-2xl"
         >
           <figure class="px-10 pt-10">
             <img
@@ -51,7 +51,7 @@ const Guide = () => {
           data-aos="fade-right"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          class="card w-full bg-base-200 shadow-2xl"
+          class="card w-full bg-base-100 shadow-2xl"
         >
           <figure class="px-10 pt-10">
             <img
