@@ -1,4 +1,5 @@
 import React from "react";
+import Blog from "../Blog/Blog";
 import Destinations from "../Destinations/Destinations";
 import Guide from "../Guide/Guide";
 import Review from "../Review/Review";
@@ -17,6 +18,7 @@ const Home = () => {
       <UpcomingOffer/>
       <Guide/>
       <Review/>
+      <Blog/>
     </div>
   );
 };
