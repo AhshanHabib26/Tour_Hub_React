@@ -5,7 +5,7 @@ module.exports = {
     themes: [
       {
         IMSThemes: {
-          primary: "#ff0066",
+          primary: "#ff5b4d",
           secondary: "#FFECEB",
           accent: "#4A546C",
           neutral: "#00152B",

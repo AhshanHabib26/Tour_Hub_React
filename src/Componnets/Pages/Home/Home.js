@@ -1,4 +1,5 @@
 import React from 'react';
+import Houses from '../Houses/Houses';
 import Banner from './Banner';
 import SearchInput from './SearchInput';
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
             <Banner/>
             <SearchInput/>
+            <Houses/>
         </div>
     );
 };

@@ -19,20 +19,14 @@ const Banner = () => {
             <div>
               <h1
                 data-aos="fade-up"
-                data-aos-offset="200"
                 data-aos-duration="2500"
-                data-aos-anchor-placement="top-center"
                 className=" text-center text-xl  lg:text-4xl font-bold"
               >
                 Welcome To <span className=" text-primary">TourHub</span>{" "}
               </h1>
               <h1
                 data-aos="fade-right"
-                data-aos-offset="200"
                 data-aos-duration="3000"
-                data-aos-mirror="true"
-                data-aos-easing="ease-in-sine"
-                data-aos-anchor-placement="top-center"
                 className=" text-3xl lg:text-7xl font-extrabold text-center"
               >
                 Enjoy Your New <br></br> Advanture{" "}
@@ -46,21 +40,14 @@ const Banner = () => {
             <div>
               <h1
                 data-aos="fade-down"
-                data-aos-offset="200"
                 data-aos-duration="2500"
-                data-aos-mirror="true"
-                data-aos-anchor-placement="top-center"
                 className=" text-center text-xl  lg:text-4xl font-bold"
               >
                 Welcome To <span className=" text-primary">TourHub</span>{" "}
               </h1>
               <h1
                 data-aos="fade-up-right"
-                data-aos-offset="200"
                 data-aos-duration="3000"
-                data-aos-mirror="true"
-                data-aos-easing="ease-in-sine"
-                data-aos-anchor-placement="top-center"
                 className=" text-3xl lg:text-7xl font-extrabold text-center"
               >
                 Journey To Explore <br></br> World{" "}
