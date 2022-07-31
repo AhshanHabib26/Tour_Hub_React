@@ -2,6 +2,7 @@ import React from "react";
 import SubscribeModal from "../../Modal/SubscribeModal";
 import Blog from "../Blog/Blog";
 import Destinations from "../Destinations/Destinations";
+import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Gallery";
 import Guide from "../Guide/Guide";
 import Review from "../Review/Review";
@@ -25,6 +26,7 @@ const Home = () => {
       <Subscribe/>
       <SubscribeModal/>
       <Gallery/>
+      <Footer/>
     </div>
   );
 };
