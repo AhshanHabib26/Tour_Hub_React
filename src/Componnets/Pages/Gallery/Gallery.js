@@ -13,7 +13,7 @@ import imageEight from "../../Image/Gallery/Gallery_8.png";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className=" mb-10">
       <h1 className=" text-center text-primary text-2xl lg:text-4xl font-bold my-10">
         Our Gallery
       </h1>

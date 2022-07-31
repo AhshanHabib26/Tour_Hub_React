@@ -13,7 +13,7 @@ const Footer = () => {
         <footer class="footer p-10   bg-neutral  text-secondary">
           <div>
             <h1 className=" text-3xl font-extrabold text-secondary">
-              Tour<span className=" text-primary">Hub</span>{" "}
+              Tour<span className=" text-primary">2Hub</span>{" "}
             </h1>
             <p className=" text-[16px]">
               Copyright © 2021 - {getDate} | All Right Reserved

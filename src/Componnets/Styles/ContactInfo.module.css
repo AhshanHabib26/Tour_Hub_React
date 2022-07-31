@@ -1,0 +1,8 @@
+.ContactContainer {
+  background-image: url(../Image/ContactInfo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px 0;
+}
