@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import SignInImg from "../../Image/Signin.png";
-import axios from "axios";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -16,28 +15,28 @@ const Login = () => {
 
   const onSubmit = async (data) => {
     const inputData = {
-      name: data.name,
       email: data.email,
       password: data.password,
     };
 
-    try {
-      const { info } = await axios.post(
-        "http://localhost:4000/api/signup",
-        inputData
-      );
-
-      if (info.error) {
-        toast.error(info.error);
-      } else {
-        await localStorage.setItem("Key", JSON.stringify(info));
-        toast.success("Sign up successful");
-        navigate("/dashboard");
-      }
-    } catch (err) {
-      toast.info("Signup failed. Try again");
-      console.log(err);
-    }
+    fetch("https://tour-hub-server.herokuapp.com/signin", {
+      method: "POST",
+      body: JSON.stringify(inputData),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        if (data.error) {
+          toast.error(data.error);
+        } else {
+          localStorage.setItem("Key", JSON.stringify(data));
+          toast.success("Welcome, Tour Hub!");
+          navigate('/')
+        }
+      });
   };
 
   return (
@@ -100,6 +99,7 @@ const Login = () => {
                       Sign Up
                     </Link>{" "}
                   </p>
+                  <Link to='/forgot-password' >Forgot <span>Password?</span> </Link>
                   <input
                     className="btn btn-ghost bg-primary hover:btn-outline text-white"
                     type="submit"

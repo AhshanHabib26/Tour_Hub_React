@@ -5,12 +5,13 @@ import { toast } from "react-toastify";
 import SignUpImg from "../../Image/Signup.png";
 
 const Signup = () => {
-  const navigate = useNavigate();
   const {
     register,
     formState: { errors },
     handleSubmit,
   } = useForm();
+
+  const navigate = useNavigate()
 
   const onSubmit = async (data) => {
     const inputData = {
@@ -19,7 +20,7 @@ const Signup = () => {
       password: data.password,
     };
 
-    fetch("http://localhost:4000/api/signup", {
+    fetch("https://tour-hub-server.herokuapp.com/signup", {
       method: "POST",
       body: JSON.stringify(inputData),
       headers: {
@@ -33,8 +34,8 @@ const Signup = () => {
           toast.error(data.error);
         } else {
           localStorage.setItem("Key", JSON.stringify(data));
-          toast.success("Sign up successful");
-          navigate("/dashboard");
+          toast.success("You Can Login Your New Email and Password");
+          navigate('/login')
         }
       });
   };
