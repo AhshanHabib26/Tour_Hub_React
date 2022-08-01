@@ -72,7 +72,7 @@ const Navbar = () => {
               class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to='/signin'>Log In</Link>
+                <Link to='/login'>Log In</Link>
               </li>
               <li>
                 <Link to='/signup'>Sign Up</Link>
