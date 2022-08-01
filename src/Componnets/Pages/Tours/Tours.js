@@ -9,7 +9,7 @@ const Tours = () => {
   const sliceTours = tours.slice(0, 6)
 
   return (
-    <div>
+    <div id="tours">
       <h2 className="  text-center text-neutral text-2xl lg:text-4xl font-bold my-8">
         {" "}
        Our Best Selling Tours

@@ -34,7 +34,7 @@ const Login = () => {
         } else {
           localStorage.setItem("Key", JSON.stringify(data));
           toast.success("Welcome, Tour Hub!");
-          navigate('/')
+          navigate("/");
         }
       });
   };
@@ -90,16 +90,21 @@ const Login = () => {
                   {errors.password && (
                     <span role="alert">{errors.password.message}</span>
                   )}
-                  <p>
+                  <p className=" text-center ">
                     You Have Not An Account, Please?{" "}
                     <Link
-                      className="text-error text-lg font-semibold"
+                      className="text-error text-[16px] font-semibold"
                       to="/signup"
                     >
                       Sign Up
                     </Link>{" "}
                   </p>
-                  <Link to='/forgot-password' >Forgot <span>Password?</span> </Link>
+                  <Link
+                    to="/forgot-password"
+                    className=" text-md  font-semibold text-error cursor-pointer text-center"
+                  >
+                    Forgot <span>Password?</span>{" "}
+                  </Link>
                   <input
                     className="btn btn-ghost bg-primary hover:btn-outline text-white"
                     type="submit"

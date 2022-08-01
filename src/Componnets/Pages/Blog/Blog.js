@@ -6,7 +6,7 @@ import Styles from '../../Styles/Blog.module.css'
 
 const Blog = () => {
   return (
-    <div>
+    <div id="blogs">
       <h1 className=" text-center text-primary text-2xl lg:text-4xl font-bold my-10">
         Top Recent Blog Post
       </h1>

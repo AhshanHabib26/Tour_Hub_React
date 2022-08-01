@@ -8,26 +8,29 @@ const ForgotPassword = () => {
 
   const handleSubmit = (e) => {
     const email = e.target.email.value;
-
     e.preventDefault();
-
-    fetch("https://tour-hub-server.herokuapp.com/forgot-password", {
-      method: "POST",
-      body: JSON.stringify({ email }),
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        if (data.error) {
-          toast.error(data.error);
-        } else {
-          toast.info("Verification is Send on Your Email!");
-          navigate("/verify-email");
-        }
-      });
+    if (!email) {
+      toast.error("Please Enter Your Email");
+      return;
+    } else {
+      fetch("https://tour-hub-server.herokuapp.com/forgot-password", {
+        method: "POST",
+        body: JSON.stringify({ email }),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8",
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          if (data.error) {
+            toast.error(data.error);
+          } else {
+            toast.info("Verification Code is Send on Your Email!");
+            navigate("/verify-email");
+          }
+        });
+    }
   };
 
   return (

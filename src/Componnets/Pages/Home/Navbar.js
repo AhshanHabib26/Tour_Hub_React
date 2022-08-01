@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../Image/TourHub.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
@@ -29,36 +30,82 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to="/">Home</Link>
+                <HashLink smooth to="/">
+                  Home
+                </HashLink>
               </li>
               <li>
-                <Link to="/">Destinations</Link>
+                <HashLink smooth to="#tours">
+                  Package
+                </HashLink>
               </li>
               <li>
-                <Link to="/blogs">Blogs</Link>
+                <HashLink smooth to="#destinations">
+                  Destinations
+                </HashLink>
               </li>
               <li>
-                <Link to="/contact-us">Contact Us</Link>
+                <HashLink smooth to="#upcoming-offer">
+                  Best Offer
+                </HashLink>
+              </li>
+              <li>
+                <HashLink smooth to="#blogs">
+                  Blogs
+                </HashLink>
+              </li>
+              <li>
+                <HashLink smooth to="#album-archive">
+                  Album
+                </HashLink>
+              </li>
+              <li>
+                <HashLink smooth to="#contact-us">
+                  Contact Us
+                </HashLink>
               </li>
             </ul>
           </div>
-          <Link to="/"  >
+          <Link to="/">
             <img src={Logo} alt="" />
           </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <Link to="/">Home</Link>
+              <HashLink smooth to="/">
+                Home
+              </HashLink>
             </li>
             <li>
-              <Link to="/">Destinations</Link>
+              <HashLink smooth to="#tours">
+                Package
+              </HashLink>
             </li>
             <li>
-              <Link to="/blogs">Blogs</Link>
+              <HashLink smooth to="#destinations">
+                Destinations
+              </HashLink>
             </li>
             <li>
-              <Link to="/contact-us">Contact Us</Link>
+              <HashLink smooth to="#upcoming-offer">
+                Best Offer
+              </HashLink>
+            </li>
+            <li>
+              <HashLink smooth to="#blogs">
+                Blogs
+              </HashLink>
+            </li>
+            <li>
+              <HashLink smooth to="#album-archive">
+                Album
+              </HashLink>
+            </li>
+            <li>
+              <HashLink smooth to="#contact-us">
+                Contact Us
+              </HashLink>
             </li>
           </ul>
         </div>
@@ -72,10 +119,10 @@ const Navbar = () => {
               class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to='/login'>Log In</Link>
+                <Link to="/login">Log In</Link>
               </li>
               <li>
-                <Link to='/signup'>Sign Up</Link>
+                <Link to="/signup">Sign Up</Link>
               </li>
             </ul>
           </div>

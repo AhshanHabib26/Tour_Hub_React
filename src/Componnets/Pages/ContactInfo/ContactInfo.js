@@ -7,7 +7,7 @@ import {FaSearchLocation} from 'react-icons/fa'
 
 const ContactInfo = () => {
     return (
-        <div className={Styles.ContactContainer}>
+        <div id='contact-us' className={Styles.ContactContainer}>
             <div className=' py-12 flex-wrap flex items-center justify-evenly flex-col lg:flex-row mx-8'>
                 <h1 className=' text-4xl font-extrabold text-secondary'>Contact Info:</h1>
                 <div className=' flex items-center my-5 lg:my-0 flex-col lg:flex-row'>

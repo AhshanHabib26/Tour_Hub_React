@@ -31,10 +31,19 @@ const VerifyEmail = () => {
   //     });
   // };
 
-  const handleSubmit = e =>{
-      navigate('/')
-      toast.error('This API is Under Construction')
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const code = e.target.code.value;
+    const password = e.target.password.value;
+
+    if (!code || !password) {
+      toast.error("Input Box is Empty");
+    } else {
+      navigate("/");
+      toast.error("This API is Under Construction");
+    }
+  };
 
   return (
     <div className=" mt-10">
@@ -50,9 +59,7 @@ const VerifyEmail = () => {
           <div class="card  bg-base-100 shadow-2xl">
             <div class="card-body">
               <h2 class=" text-xl font-bold text-accent">Verify Email</h2>
-              <p>
-                Please Enter The 5 Digit Code Sent To Your Email.
-              </p>
+              <p>Please Enter The 5 Digit Code Sent To Your Email.</p>
               <div>
                 <form
                   className="grid grid-cols-1 gap-3"
@@ -62,11 +69,13 @@ const VerifyEmail = () => {
                     className="input input-bordered"
                     placeholder="Enter Your Verification Code"
                     type="text"
+                    name="code"
                   />
                   <input
                     placeholder="Enter New Password"
                     className="input input-bordered"
                     type="password"
+                    name="password"
                   />
 
                   <input

@@ -7,7 +7,7 @@ const UpcomingOffer = () => {
   const sliceTours = tours.slice(0, 3);
 
   return (
-    <div className={Styles.UpCominBanner}>
+    <div id="upcoming-offer"  className={Styles.UpCominBanner}>
       <h2 className=" text-center text-primary text-2xl lg:text-4xl font-bold my-10">
         {" "}
         Our Upcoming Best Tours

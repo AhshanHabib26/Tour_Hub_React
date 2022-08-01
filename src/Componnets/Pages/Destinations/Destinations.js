@@ -9,7 +9,7 @@ import Switzerland from "../../Image/Destinations/Switzerland.png";
 
 const Destinations = () => {
   return (
-    <div className=" mb-12">
+    <div id="destinations" className=" mb-12">
       <h1 className=" text-center text-neutral text-2xl lg:text-4xl font-bold my-10">
         Top Recommended Destinations
       </h1>
