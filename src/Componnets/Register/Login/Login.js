@@ -19,7 +19,7 @@ const Login = () => {
       password: data.password,
     };
 
-    fetch("https://tour-hub-server.herokuapp.com/signin", {
+    fetch("https://tour-hub-server.vercel.app/signin", {
       method: "POST",
       body: JSON.stringify(inputData),
       headers: {

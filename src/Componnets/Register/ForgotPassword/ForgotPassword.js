@@ -13,7 +13,7 @@ const ForgotPassword = () => {
       toast.error("Please Enter Your Email");
       return;
     } else {
-      fetch("https://tour-hub-server.herokuapp.com/forgot-password", {
+      fetch("https://tour-hub-server.vercel.app/forgot-password", {
         method: "POST",
         body: JSON.stringify({ email }),
         headers: {
