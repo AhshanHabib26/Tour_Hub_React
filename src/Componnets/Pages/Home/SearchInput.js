@@ -51,7 +51,7 @@ const SearchInput = () => {
          
         </div>
         <div>
-            <button className=" btn btn-primary h-0 lg:h-[60px] w-[140px] mt-4 lg:mt-1 ml-0 lg:ml-3 ">Find Now</button>
+            <button className=" btn btn-primary h-0 lg:h-[60px] w-[140px] mt-4 lg:mt-1 ml-0 lg:ml-5 ">Find Now</button>
         </div>
       </div>
     </div>
