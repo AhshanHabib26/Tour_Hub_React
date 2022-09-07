@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <footer class="footer p-10   bg-neutral  text-secondary">
+        <footer className="footer p-10   bg-neutral  text-secondary">
           <div>
             <h1 className=" text-3xl font-extrabold text-secondary">
               Tour<span className=" text-primary">2Hub</span>{" "}
@@ -59,44 +59,44 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <span class="footer-title text-[16px] ">Our Services</span>
-            <Link to="" class="link text-[16px] link-hover">
+            <span className="footer-title text-[16px] ">Our Services</span>
+            <Link to="" className="link text-[16px] link-hover">
               Adventure Tours
             </Link>
-            <Link to="" class="link text-[16px]  link-hover">
+            <Link to="" className="link text-[16px]  link-hover">
               Group Tours
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Family Tours
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Country Tours
             </Link>
           </div>
           <div>
-            <span class="footer-title text-[16px]">About Us</span>
-            <Link to="" class="link text-[16px] link-hover">
+            <span className="footer-title text-[16px]">About Us</span>
+            <Link to="" className="link text-[16px] link-hover">
               About Us
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Contact Us
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Career
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Blog Press
             </Link>
           </div>
           <div>
-            <span class="footer-title text-[16px]">Legal Inforamtion</span>
-            <Link to="" class="link text-[16px] link-hover">
+            <span className="footer-title text-[16px]">Legal Inforamtion</span>
+            <Link to="" className="link text-[16px] link-hover">
               Terms of use
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Privacy policy
             </Link>
-            <Link to="" class="link text-[16px] link-hover">
+            <Link to="" className="link text-[16px] link-hover">
               Cookie policy
             </Link>
           </div>

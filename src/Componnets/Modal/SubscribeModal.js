@@ -14,23 +14,23 @@ const SubscribeModal = () => {
 
   return (
     <div>
-      <input type="checkbox" id="subscribe-modal" class="modal-toggle" />
-      <div class="modal modal-bottom sm:modal-middle">
-        <div class="modal-box text-center">
-        <label for="subscribe-modal" class="btn btn-sm btn-primary btn-circle absolute right-2 top-2">✕</label>
-          <h3 class="font-bold text-xl text-error">Enter Your E-mail!</h3>
-          <p class="py-4">
+      <input type="checkbox" id="subscribe-modal" className="modal-toggle" />
+      <div className="modal modal-bottom sm:modal-middle">
+        <div className="modal-box text-center">
+        <label htmlFor="subscribe-modal" className="btn btn-sm btn-primary btn-circle absolute right-2 top-2">✕</label>
+          <h3 className="font-bold text-xl text-error">Enter Your E-mail!</h3>
+          <p className="py-4">
             Subscribe For Exclusive Tour Package Update. Get Free Tour Tips &
             Guide!
           </p>
-          <div class="modal-action">
+          <div className="modal-action">
             <input
               onChange={(text) => setEmail(text)}
               type="email"
               placeholder="Enter Your Email Address"
-              class="input w-full border border-primary outline-none"
+              className="input w-full border border-primary outline-none"
             />
-            <label onClick={handleSubcribe} for="subscribe-modal" class="btn btn-primary">
+            <label onClick={handleSubcribe} htmlFor="subscribe-modal" className="btn btn-primary">
               Subscribe
             </label>
           </div>

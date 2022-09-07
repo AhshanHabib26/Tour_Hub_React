@@ -15,17 +15,17 @@ const Guide = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          class="card w-full bg-base-100 shadow-2xl"
+          className="card w-full bg-base-100 shadow-2xl"
         >
-          <figure class="px-10 pt-10">
+          <figure className="px-10 pt-10">
             <img
               src={GuideOne}
               alt="Shoes"
-              class={`rounded-xl ${Styles.GuideImg}`}
+              className={`rounded-xl ${Styles.GuideImg}`}
             />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class=" text-2xl font-extrabold text-neutral">Olivia Smith</h2>
+          <div className="card-body items-center text-center">
+            <h2 className=" text-2xl font-extrabold text-neutral">Olivia Smith</h2>
             <p>Tour Guide</p>
           </div>
         </div>
@@ -33,17 +33,17 @@ const Guide = () => {
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          class="card w-full bg-base-100 shadow-2xl"
+          className="card w-full bg-base-100 shadow-2xl"
         >
-          <figure class="px-10 pt-10">
+          <figure className="px-10 pt-10">
             <img
               src={GuideTwo}
               alt="Shoes"
-              class={`rounded-xl ${Styles.GuideImg}`}
+              className={`rounded-xl ${Styles.GuideImg}`}
             />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class=" text-2xl font-extrabold text-neutral">Benjamin M</h2>
+          <div className="card-body items-center text-center">
+            <h2 className=" text-2xl font-extrabold text-neutral">Benjamin M</h2>
             <p>Tour Guide</p>
           </div>
         </div>
@@ -51,17 +51,17 @@ const Guide = () => {
           data-aos="fade-right"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          class="card w-full bg-base-100 shadow-2xl"
+          className="card w-full bg-base-100 shadow-2xl"
         >
-          <figure class="px-10 pt-10">
+          <figure className="px-10 pt-10">
             <img
               src={GuideThree}
               alt="Shoes"
-              class={`rounded-xl ${Styles.GuideImg}`}
+              className={`rounded-xl ${Styles.GuideImg}`}
             />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class=" text-2xl font-extrabold text-neutral">William S</h2>
+          <div className="card-body items-center text-center">
+            <h2 className=" text-2xl font-extrabold text-neutral">William S</h2>
             <p>Tour Guide</p>
           </div>
         </div>

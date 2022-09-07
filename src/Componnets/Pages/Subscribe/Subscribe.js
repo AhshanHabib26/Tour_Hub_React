@@ -9,7 +9,7 @@ const Subscribe = () => {
           Join Us for Our <span className=" text-info">Update</span>
         </h1>
         <label
-          for="subscribe-modal"
+          htmlFor="subscribe-modal"
           className=" modal-button btn mt-5 lg:mt-0 btn-secondary"
         >
           Subcribe Us

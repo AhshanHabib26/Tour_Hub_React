@@ -14,15 +14,15 @@ const Blog = () => {
         <div className=" relative">
           <div
             data-aos="zoom-in"
-            class="card w-full bg-base-100 shadow relative"
+            className="card w-full bg-base-100 shadow relative"
           >
             <figure className=" relative">
               <img className=" relative w-full" src={BlogOne} alt="Blog" />
               <h1 className={Styles.PostAdmin}>Ahshan Habib</h1>
             </figure>
 
-            <div class="card-body">
-              <h2 class="card-title">Taj Mahal and Wildlife with Royal Stay at Castles</h2>
+            <div className="card-body">
+              <h2 className="card-title">Taj Mahal and Wildlife with Royal Stay at Castles</h2>
               <div className=" flex items-end justify-end my-2">
                 <h1 className=" cursor-pointer text-lg font-semibold text-primary">Read More</h1>
               </div>
@@ -32,15 +32,15 @@ const Blog = () => {
         <div className=" relative">
           <div
             data-aos="zoom-in"
-            class="card w-full bg-base-100 shadow relative"
+            className="card w-full bg-base-100 shadow relative"
           >
             <figure className=" relative">
               <img className=" relative w-full" src={BlogTwo} alt="Blog" />
               <h1 className={Styles.PostAdmin}>Ahshan Habib</h1>
             </figure>
 
-            <div class="card-body">
-              <h2 class="card-title">High-speed train to Venice and Free day in Venice</h2>
+            <div className="card-body">
+              <h2 className="card-title">High-speed train to Venice and Free day in Venice</h2>
               <div className=" flex items-end justify-end my-2">
                 <h1 className=" cursor-pointer text-lg font-semibold text-primary">Read More</h1>
               </div>
@@ -50,15 +50,15 @@ const Blog = () => {
         <div className=" relative">
           <div
             data-aos="zoom-in"
-            class="card w-full bg-base-100 shadow relative"
+            className="card w-full bg-base-100 shadow relative"
           >
             <figure className=" relative">
               <img className=" relative w-full" src={BlogThree} alt="Blog" />
               <h1 className={Styles.PostAdmin}>Habib Gazi</h1>
             </figure>
 
-            <div class="card-body">
-              <h2 class="card-title">Best Journey of Spain & Portugal - 9 Days</h2>
+            <div className="card-body">
+              <h2 className="card-title">Best Journey of Spain & Portugal - 9 Days</h2>
               <div className=" flex items-end justify-end my-2">
                 <h1 className=" cursor-pointer text-lg font-semibold text-primary">Read More</h1>
               </div>

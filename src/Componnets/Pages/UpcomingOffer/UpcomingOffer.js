@@ -1,13 +1,13 @@
 import React from "react";
 import useData from "../../Hooks/useData";
-import Styles from '../../Styles/UpcomingOffer.module.css'
+import Styles from "../../Styles/UpcomingOffer.module.css";
 
 const UpcomingOffer = () => {
   const [tours] = useData();
   const sliceTours = tours.slice(0, 3);
 
   return (
-    <div id="upcoming-offer"  className={Styles.UpCominBanner}>
+    <div id="upcoming-offer" className={Styles.UpCominBanner}>
       <h2 className=" text-center text-primary text-2xl lg:text-4xl font-bold my-10">
         {" "}
         Our Upcoming Best Tours
@@ -21,7 +21,11 @@ const UpcomingOffer = () => {
                 class="card w-full bg-base-100 shadow relative"
               >
                 <figure className=" relative">
-                  <img className=" relative w-full" src={tour.Image} alt="Shoes" />
+                  <img
+                    className=" relative w-full"
+                    src={tour.Image}
+                    alt="Shoes"
+                  />
                   <h1 className={Styles.DayInner}>{tour.Day}</h1>
                 </figure>
 
@@ -30,7 +34,8 @@ const UpcomingOffer = () => {
                   <div className=" flex items-center justify-between my-2">
                     <button className={Styles.BookBtn}>Book Now</button>
                     <h1 className=" text-lg font-semibold text-primary">
-                      ${tour.Price} <span className=" text-gray-500">/ Person</span>
+                      ${tour.Price}{" "}
+                      <span className=" text-gray-500">/ Person</span>
                     </h1>
                   </div>
                 </div>
